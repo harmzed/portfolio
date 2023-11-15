@@ -1,0 +1,203 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pixelify+Sans&family=Playfair+Display&display=swap');
+body {
+   
+    background-color:hsl(0, 0%, 100%);
+    background-image: url(./images/bg-stars.svg);
+    flex-wrap: wrap;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  
+  }
+   header {
+      background-color:#333;
+      color: plum;
+      padding: 10px;
+      padding-bottom: 35px;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      color: hsl(236, 8%, 37%);
+      padding: 10px;
+      margin-bottom: 10px;
+      text-align:left;
+      font-family: 'Pixelify Sans', sans-serif;
+      font-size: 30px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    /*counter container timer*/
+    .container {
+      margin:0px;
+      font-family: 'Playfair Display', serif;
+      position: relative;
+    }
+    
+    h1 {
+      font-size: 2em; 
+      margin-bottom: 0px;
+      
+      text-align: center;
+      color: hsl(237, 18%, 59%);
+    }
+    
+    #countdown {
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center;
+    
+    }
+    
+   
+  .timer {
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 20px;
+    width:80px;
+    height:70px;
+    background-color: hsl(236, 21%, 26%);
+    color:  plum;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .timer span {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .timer .label {
+    margin-top:30px;
+    color: hsl(237, 18%, 59%);
+    font-size: 13PX;
+  }
+  
+    /* Style for the slider container */
+.shoes-slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Style for individual slides */
+.shoes-slider .slide {
+  min-width: 100%;
+}
+
+/* Style for images inside the slides */
+.shoes-slider img {
+  width: 50%;
+  border-radius: 15px;
+}
+
+/* Style for slider navigation buttons */
+.slider-nav {
+  margin-left: 19%;
+  margin-top: 10px;
+}
+
+.slider-nav button {
+  border-radius:50px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+  .right {
+    margin: auto;
+    width:45%;
+    display: inline;
+    position: absolute;
+    top:305px;
+    left: 50%;
+    transform: translateX(2%);
+  }
+  
+  .product-info {
+    padding: 20px;
+    background-color: rgba(253, 181, 247, 0.7);
+    color: hsl(236, 8%, 37%);
+    font-family: 'Playfair Display', serif;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .product-info h1 {
+    color: rgb(190, 107, 190);
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .product-info h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .product-info h4 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-info {
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-info {
+      max-width: 250px;
+    }
+  }
+  
+  
+ 
+
+p{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: larger;
+  font-weight: bold;
+}
+form{
+  text-align: center;
+}
+.submit{
+  text-align: center;
+  width: 15%;
+  height:35px;
+  margin: 10px;
+  margin-top:5px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(253, 181, 247, 0.7);
+  color: hsl(236, 8%, 37%);
+}
+.submit:hover{
+  background-color: rgba(224, 145, 218, 0.7);
+  color: hsl(235, 5%, 52%);
+}
+#email{
+  width: 40%;
+  height: 30px;
+  margin: 10px;
+  margin-top:0px;
+  padding-left: 10px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border:none;
+  background-color: #f0ebeb;
+}
+footer p {
+  font-weight: 100;
+}

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+body{
+    background-color:hsl(216, 12%, 8%);
+    font-family:"Overpass" ;
+}
+
+/*the card design*/
+
+.card-initial , .submitted-card {
+    position: relative;
+    width: 270px;
+    height: 300px;
+    margin:auto;
+    margin-top: 150px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding:20px ;
+ }
+ 
+
+/*the star icon design*/
+ .icon-star{
+    background-color: hsl(212, 17%, 22%) ;
+    padding:10px;
+    border-radius: 20px;
+    
+ }
+
+/*the text design*/
+
+
+h3{
+  color: hsl(0, 0%, 100%) ;
+  font-size:25px;
+  }
+
+p{
+    color:hsl(217, 12%, 63%);
+    font-size:13px;
+}  
+/*number buttons design*/
+.rating-buttons{
+    width: 40px;
+    height: 40px;
+    font-size: 11px;
+    margin:5px;
+    margin-bottom:25px;
+    cursor: pointer;
+    background-color: hsl(212, 17%, 22%);
+    border: none;
+    border-radius: 50px;
+    color:hsl(216, 12%, 54%);
+}
+.rating-buttons:hover {
+    background-color: hsl(25, 100%, 57%);
+    color:white;
+  }
+  
+.rating-buttons:focus{
+    background-color: hsl(217, 12%, 63%);  
+    color:white; 
+  }
+
+/*submit button*/
+#submit-btn{
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%) ;
+    background-color: hsl(25, 100%, 57%);
+}
+#submit-btn:hover{
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(25, 100%, 57%);
+  }
+  
+  /*Submited card design begins*/
+  .phone {
+    width:160px;
+    margin:10px;
+    margin-left: 45px;
+  }
+  .selected-rating-text{
+    color: hsl(25, 100%, 57%);
+    font-size:13px;
+    background-color: hsl(212, 17%, 22%) ;
+    padding:8px;
+    margin-left:55px;
+    width:50%;
+    border-radius: 20px;
+  }
+  .submitted-card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submitted-card .text h3 {
+    color: #fff;
+    margin-bottom: 0px;
+  }
+  .submitted-card .text p {
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+    
+  }
+  
+ .hidden {
+    display: none;
+  }
+    .attribution {
+        font-size: 11px; 
+        color: #fff;
+        text-align: center;
+     }
+    .attribution a {
+         color: hsl(228, 45%, 44%)
+         ; }
+ 

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body {
+    background-color:   hsl(185, 75%, 39%);
+    padding: 90px; 
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  body:before {
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/bg-pattern-top.svg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: right 190%;
+  }
+
+  body:after {
+    position: absolute;
+    content: " ";
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url("./images/bg-pattern-bottom.svg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: left -90%;
+  }
+  /*design size for profile card*/
+  .profile-card {
+    position: relative;
+    width: 270px;
+    height: 230px;
+    margin: 100px auto;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  /*design for the profile card background image*/
+  .profile-background-image {
+    background-image: url('./images/bg-pattern-card.svg');
+    background-size: cover;
+    height: 100px;
+  }
+  /*design for profile picture*/
+  .profile-picture {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #ffffff;
+    
+    
+  }
+  
+  .profile-picture img {
+    width: 75px; 
+    height: 75px; 
+  }
+  
+  .info , .name {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .town{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .age{
+    font-size: 20px;
+    font-weight: 200;
+    color: hsl(227, 10%, 46%);
+  }
+/*design for profile info */
+  .profile-info {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .profile-info div {
+    text-align: center;
+  }
+  
+  h2 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  margin: 0;
+  }
+  
+   p {
+    color: hsl(227, 10%, 46%);
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .attribution { 
+     font-size: 10px;
+     text-align: center;
+     }
+
+ .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+  
