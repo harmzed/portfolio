@@ -244,7 +244,7 @@
             </p>
           </div>
 
-          <form action="" class="contact__form">
+          <form action="" id="contact_form" class="contact_form">
             <div class="contact__control">
               <label for="name" class="visually-hidden">Name</label>
               <input type="text" id="name" name="name" placeholder="Name" required/>
@@ -266,8 +266,9 @@
             <div class="contact__control align-right">
               <button type="submit">Send Message</button>
             </div>
-            
+             <p id="contact_message"></p>
           </form>
+          
         </div>
         <img class="contact__rings" src="./Images/pattern-rings.svg" alt="" width="530" height="129" />
        
@@ -291,5 +292,6 @@
   </div>
 </footer>
   </body>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script src="script.js"></script>
 </html>
