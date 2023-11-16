@@ -33,4 +33,30 @@ function myFunction() {
       icon.src = "./Images/sun.png";
     }
   };
+  const contactForm = document.getElementById('contact_form'),
   
+  contactMessage = document.getElementById('contact_message');
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  // serviceID - TemplateID - #form - publicKey
+  emailjs.sendForm('service_glsneoo', 'template_781boky', '#contact_form', 'pelVgzphd1eK6XQ3N')
+      .then(() => {
+          // show sent message
+          contactMessage.textContent = 'Message sent successfully ✅';
+
+          // remove sent message
+          setTimeout(() => {
+              contactMessage.textContent = '';
+          }, 5000);
+
+          // clear input fields
+          contactForm.reset();
+      }, () => {
+          // show error message
+          contactMessage.textContent = 'Please Try Again Later ❌';
+      });
+}
+
+contactForm.addEventListener('submit', sendEmail);
